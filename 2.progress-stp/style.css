@@ -3,7 +3,9 @@
 *{
     box-sizing: border-box;
 }
-
+:root{
+    
+}
 body{
     background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
@@ -53,4 +55,22 @@ body{
     z-index: -1;
     transition: 0.4s ease;
 
+}
+
+.circle{
+    display: flex;
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    border: solid 3px #e0e0e0;
+    align-items: center;
+    transition: 0.4s ease;
+}
+
+.circle.active{
+    border-color: #3498db;
 }
