@@ -51,10 +51,9 @@ body{
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 0;
+    width: 100%;
     z-index: -1;
     transition: 0.4s ease;
-
 }
 
 .circle{
@@ -72,7 +71,9 @@ body{
 }
 
 .circle.active{
-    border-color: #3498db;
+    border-color: solid white;
+    background-color: #3498db;
+    color: white;
 }
 
 .btn{
