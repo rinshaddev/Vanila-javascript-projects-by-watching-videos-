@@ -28,6 +28,7 @@ body {
   transform: rotate(-20deg);
 }
 
+
 .circle-container{
   position: fixed;
   top: -100px;
@@ -85,3 +86,49 @@ img {
   line-height: 1.4;
 }
 
+nav{
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul{
+   list-style: none;
+   padding-left: 30px;
+}
+
+nav li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px 0;
+  transform:  translateX(-100%);
+
+}
+
+nav ul li i{
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+nav ul li + li {
+  margin-left: 25px;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li{
+  margin-left: 50px;
+  transform: translateX(-200%);
+}
+
+
+.container.show-nav + nav li{
+  transform: translateX(0);
+  transition-delay: 0.4s;
+
+}
+
+.container.show-nav .circle{
+  transform: rotate(-70deg);
+}
