@@ -92,3 +92,19 @@ h1{
     height: 100%;
     background-color: rgba(43, 43, 43, 0.9);
 }
+
+.hover-left .left{
+    width: 80%;
+}
+
+.hover-left .right{
+    width: 20%;
+}
+
+.hover-right .right{
+    width: 80%;
+}
+
+.hover-right .left{
+    width: 20%;
+}
