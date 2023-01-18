@@ -108,3 +108,20 @@ h1{
 .hover-right .left{
     width: 20%;
 }
+
+.split.right, .split.left, .split.right::before, .split.left::before{
+    transition: all 1000ms ease-in;
+}
+
+
+@media (max-width: 800px){
+    h1{
+        font-size: 0.1rem;
+        top:30px
+    }
+
+    .btn {
+        padding: 1.2rem;
+        width: 12rem;
+    }
+}
