@@ -3,3 +3,63 @@
 *{
     box-sizing: border-box;
 }
+
+
+body{
+    background-color: steelblue;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px,rgba(0, 0, 0, 0.1);
+    padding: 50px 60px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    width:800px;
+    gap:50px;
+     
+}
+
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.joke {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px,rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 12px 50px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:focus{
+    outline: none;
+}
