@@ -6,7 +6,7 @@ const hourHand = document.getElementById('hour');
 
 window.onload = setInterval(() => {
     setClock();
-}, 1000);
+}, 10000/60);
 
 function setClock(){
     const currentDate = new Date()
