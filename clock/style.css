@@ -106,6 +106,8 @@ body {
     height: 45%;
     background-color: rgb(97, 55, 55);
     z-index: 8;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 .clock .hand.hour {
